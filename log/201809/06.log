@@ -1,0 +1,119 @@
+[ 2018-09-06T22:30:33+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.186419s][吞吐率：5.36req/s] [内存消耗：434.55kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000345s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:30:55+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user [运行时间：0.017466s][吞吐率：57.25req/s] [内存消耗：464.68kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000580s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:31:55+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user?page=2
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user?page=2 [运行时间：0.014867s][吞吐率：67.26req/s] [内存消耗：460.98kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 15,16 [ RunTime:0.000441s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:32:08+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user?page=1
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user?page=1 [运行时间：0.015137s][吞吐率：66.06req/s] [内存消耗：463.34kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000481s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:34:45+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user?page=1
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user?page=1 [运行时间：0.015369s][吞吐率：65.07req/s] [内存消耗：463.91kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000463s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:35:29+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user?page=1
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user?page=1 [运行时间：0.017340s][吞吐率：57.67req/s] [内存消耗：463.91kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000496s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:35:57+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user?page=1
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user?page=1 [运行时间：0.016340s][吞吐率：61.20req/s] [内存消耗：463.91kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000550s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:53:25+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user [运行时间：0.015660s][吞吐率：63.86req/s] [内存消耗：465.52kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000505s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:53:50+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/by_user
+[ log ] zerg.gxnwang.xyz/api/v1/order/by_user [运行时间：0.016463s][吞吐率：60.74req/s] [内存消耗：465.52kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 58 ORDER BY create_time desc LIMIT 0,16 [ RunTime:0.000556s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:54:34+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.024882s][吞吐率：40.19req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000707s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000664s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:56:00+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.015743s][吞吐率：63.52req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000440s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:58:20+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.015550s][吞吐率：64.31req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000445s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:58:22+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.015531s][吞吐率：64.39req/s] [内存消耗：455.30kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000441s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:58:30+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.014237s][吞吐率：70.24req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000454s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T22:58:53+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.016298s][吞吐率：61.36req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000436s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T23:00:03+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.015235s][吞吐率：65.64req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000416s ]
+
+---------------------------------------------------------------
+[ 2018-09-06T23:00:08+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/order/540
+[ log ] zerg.gxnwang.xyz/api/v1/order/540 [运行时间：0.014825s][吞吐率：67.45req/s] [内存消耗：455.88kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000464s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,91 @@
+[ 2018-08-07T23:13:23+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.097175s][吞吐率：10.29req/s] [内存消耗：764.20kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7442062336',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5221.400 QQBrowser/10.0.1125.400',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-07T23:13:34+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] zerg.gaojiyu.my/banner/1 [运行时间：0.054770s][吞吐率：18.26req/s] [内存消耗：943.89kb] [文件加载：31]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7442062336; pgv_si=s7086652416',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5221.400 QQBrowser/10.0.1125.400',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ E:\www\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-07T23:14:05+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] zerg.gaojiyu.my/banner/1 [运行时间：0.023528s][吞吐率：42.50req/s] [内存消耗：944.19kb] [文件加载：31]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7442062336; pgv_si=s7086652416',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5221.400 QQBrowser/10.0.1125.400',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/banner/1' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ E:\www\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

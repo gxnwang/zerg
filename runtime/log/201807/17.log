@@ -1,0 +1,165 @@
+[ 2018-07-17T23:09:03+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/Test/hello
+[ log ] zerg.gaojiyu.my/sample/Test/hello [运行时间：0.025197s][吞吐率：39.69req/s] [内存消耗：788.67kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-17T23:09:04+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/Test/hello
+[ log ] zerg.gaojiyu.my/sample/Test/hello [运行时间：0.022519s][吞吐率：44.41req/s] [内存消耗：788.72kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-17T23:09:26+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.033880s][吞吐率：29.52req/s] [内存消耗：792.33kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-17T23:09:37+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/id
+[ log ] zerg.gaojiyu.my/hello/id [运行时间：0.023430s][吞吐率：42.68req/s] [内存消耗：788.05kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello/id' => '',
+  'id' => 'id',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:name[E:\www\zerg\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2018-07-17T23:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1
+[ log ] zerg.gaojiyu.my/hello/1 [运行时间：0.023963s][吞吐率：41.73req/s] [内存消耗：788.02kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:name[E:\www\zerg\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2018-07-17T23:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1/name
+[ log ] zerg.gaojiyu.my/hello/1/name [运行时间：0.076742s][吞吐率：13.03req/s] [内存消耗：788.05kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1/name' => '',
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:name[E:\www\zerg\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2018-07-17T23:57:38+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1?name=name
+[ log ] zerg.gaojiyu.my/hello/1?name=name [运行时间：0.018925s][吞吐率：52.84req/s] [内存消耗：769.10kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'name' => 'name',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

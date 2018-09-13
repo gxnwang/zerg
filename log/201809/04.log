@@ -1,0 +1,150 @@
+[ 2018-09-04T22:18:15+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.174606s][吞吐率：5.73req/s] [内存消耗：430.42kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000378s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:25:17+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.163639s][吞吐率：6.11req/s] [内存消耗：963.88kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004596s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.002587s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004701s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000402s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:27:08+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.076556s][吞吐率：13.06req/s] [内存消耗：682.77kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000332s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:27:10+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.068336s][吞吐率：14.63req/s] [内存消耗：682.19kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:27:24+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.072604s][吞吐率：13.77req/s] [内存消耗：682.77kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000351s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:27:26+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.082968s][吞吐率：12.05req/s] [内存消耗：682.19kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000354s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:27:37+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.076315s][吞吐率：13.10req/s] [内存消耗：682.19kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000351s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:29:05+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.067069s][吞吐率：14.91req/s] [内存消耗：682.77kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000367s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:32:26+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.083885s][吞吐率：11.92req/s] [内存消耗：685.34kb] [文件加载：71]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000379s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:32:48+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.070047s][吞吐率：14.28req/s] [内存消耗：682.77kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:32:49+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.074243s][吞吐率：13.47req/s] [内存消耗：682.19kb] [文件加载：70]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:44:46+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.145489s][吞吐率：6.87req/s] [内存消耗：685.42kb] [文件加载：71]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000362s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:45:46+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.134398s][吞吐率：7.44req/s] [内存消耗：684.56kb] [文件加载：71]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000330s ]
+
+---------------------------------------------------------------
+[ 2018-09-04T22:46:10+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1/pay/per_order
+[ log ] zerg.gxnwang.xyz/api/v1/pay/per_order [运行时间：0.113676s][吞吐率：8.80req/s] [内存消耗：685.26kb] [文件加载：71]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `id` = 540 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_id` = 540 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000346s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,1021 @@
+[ 2018-07-15T12:04:27+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/
+[ log ] gaojiyu.my/zerg/public/ [运行时间：0.067099s][吞吐率：14.90req/s] [内存消耗：767.62kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'x-lantern-version' => '4.7.6',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5221.400 QQBrowser/10.0.1125.400',
+  'host' => 'gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T12:06:28+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/
+[ log ] gaojiyu.my/zerg/public/ [运行时间：0.021762s][吞吐率：45.95req/s] [内存消耗：767.99kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'x-lantern-version' => '4.7.6',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=7442062336; pgv_si=s3972128768',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.5221.400 QQBrowser/10.0.1125.400',
+  'host' => 'gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T12:07:06+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/
+[ log ] gaojiyu.my/zerg/public/ [运行时间：0.017809s][吞吐率：56.15req/s] [内存消耗：767.88kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'x-lantern-version' => '4.7.6',
+  'upgrade-insecure-requests' => '1',
+  'proxy-connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2742530048',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'host' => 'gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T12:31:12+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.018370s][吞吐率：54.44req/s] [内存消耗：767.42kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:13:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.033182s][吞吐率：30.14req/s] [内存消耗：767.15kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:13:20+08:00 ] 127.0.0.1 127.0.0.1 POST /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.020430s][吞吐率：48.95req/s] [内存消耗：767.86kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'origin' => 'chrome-extension://aejoelaoggembcahagimdiliamlcdmfm',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:13:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.021214s][吞吐率：47.14req/s] [内存消耗：767.17kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:14:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.027766s][吞吐率：36.02req/s] [内存消耗：767.17kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:14:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index
+[ log ] zerg.gaojiyu.my/index.php/index [运行时间：0.026925s][吞吐率：37.14req/s] [内存消耗：767.18kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.019106s][吞吐率：52.34req/s] [内存消耗：766.99kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '3a655062-9db3-4f34-bf46-16e7cb9a5852',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:50:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/sample/test/hello
+[ log ] zerg.gaojiyu.my/index.php/sample/test/hello [运行时间：0.044927s][吞吐率：22.26req/s] [内存消耗：586.70kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\Route' not found[E:\www\zerg\application\route.php:25]
+
+---------------------------------------------------------------
+[ 2018-07-15T13:50:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] zerg.gaojiyu.my/index.php/hello [运行时间：0.019215s][吞吐率：52.04req/s] [内存消耗：586.66kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\Route' not found[E:\www\zerg\application\route.php:25]
+
+---------------------------------------------------------------
+[ 2018-07-15T13:50:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.018469s][吞吐率：54.15req/s] [内存消耗：586.70kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\Route' not found[E:\www\zerg\application\route.php:25]
+
+---------------------------------------------------------------
+[ 2018-07-15T13:51:23+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.019725s][吞吐率：50.70req/s] [内存消耗：586.66kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Think\Route' not found[E:\www\zerg\application\route.php:25]
+
+---------------------------------------------------------------
+[ 2018-07-15T13:52:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] zerg.gaojiyu.my/ [运行时间：0.019555s][吞吐率：51.14req/s] [内存消耗：765.18kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\www\zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] zerg.gaojiyu.my/index.php/hello [运行时间：0.019856s][吞吐率：50.36req/s] [内存消耗：765.46kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/hello
+[ log ] zerg.gaojiyu.my/index.php/hello [运行时间：0.020578s][吞吐率：48.60req/s] [内存消耗：765.71kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:56:56+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.020369s][吞吐率：49.09req/s] [内存消耗：769.00kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:56:57+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.018373s][吞吐率：54.43req/s] [内存消耗：769.07kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.024131s][吞吐率：41.44req/s] [内存消耗：769.07kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2742530048; pgv_si=s3973866496',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'zerg.gaojiyu.my',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T13:58:04+08:00 ] 127.0.0.1 127.0.0.1 GET /sample/Test/hello
+[ log ] zerg.gaojiyu.my/sample/Test/hello [运行时间：0.025199s][吞吐率：39.68req/s] [内存消耗：789.43kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:03:03+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.019019s][吞吐率：52.58req/s] [内存消耗：768.15kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'b498e2a7-4a8f-4ae9-962c-2ec29f488816',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:03:07+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.026921s][吞吐率：37.15req/s] [内存消耗：768.52kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '98d24f2c-56ca-4c02-adde-0a977786d619',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:03:28+08:00 ] 127.0.0.1 127.0.0.1 PUT /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.019890s][吞吐率：50.28req/s] [内存消耗：768.70kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '8e83d08b-fd0f-49b6-8776-a924a54ae6f0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:03:32+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.018334s][吞吐率：54.54req/s] [内存消耗：768.52kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'e64f4001-a325-4561-8386-6b19e1957e36',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:04:14+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.024374s][吞吐率：41.03req/s] [内存消耗：791.51kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'afe0be33-85ea-44a0-901b-c8ba1a04aeb2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:04:35+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.019316s][吞吐率：51.77req/s] [内存消耗：767.32kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '7d0b6422-6eca-4ab9-9234-16db3126388b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:05:50+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.025034s][吞吐率：39.95req/s] [内存消耗：791.59kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'f39992f6-204b-451b-9d82-b7eef1ed2ed8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:07:33+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.019469s][吞吐率：51.36req/s] [内存消耗：767.32kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '91f8e401-3e7d-411f-8883-2a593084bde0',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:07:37+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.021247s][吞吐率：47.07req/s] [内存消耗：791.50kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '90d1c22c-4f2a-4449-b196-668c00d0c6e2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:07:43+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.022346s][吞吐率：44.75req/s] [内存消耗：767.32kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '094a60e8-a706-4fee-8fdd-bd73db4ee4f8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:08:58+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.027458s][吞吐率：36.42req/s] [内存消耗：767.30kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'c9f9105b-3373-4078-9d4f-f10cf6cd8386',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T14:09:01+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.025188s][吞吐率：39.70req/s] [内存消耗：791.49kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '1aca53a6-e690-4255-a983-ebd5ab364a6f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T15:29:27+08:00 ] 127.0.0.1 127.0.0.1 POST /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.022066s][吞吐率：45.32req/s] [内存消耗：791.57kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '601d6ba4-c7cd-466c-a433-2b41ae5d15e3',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T15:29:32+08:00 ] 127.0.0.1 127.0.0.1 GET /hello
+[ log ] zerg.gaojiyu.my/hello [运行时间：0.018262s][吞吐率：54.76req/s] [内存消耗：791.77kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '7469bef0-24dc-4a76-9c9c-0f024f28ca19',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T15:29:43+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1
+[ log ] zerg.gaojiyu.my/hello/1 [运行时间：0.027261s][吞吐率：36.68req/s] [内存消耗：787.41kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'dbe9d7fa-32ef-4b61-93a1-e5bd726aeae9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:name[E:\www\zerg\thinkphp\library\think\App.php:294]
+
+---------------------------------------------------------------
+[ 2018-07-15T15:29:49+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1?name=yizhi
+[ log ] zerg.gaojiyu.my/hello/1?name=yizhi [运行时间：0.016588s][吞吐率：60.28req/s] [内存消耗：768.51kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '992deae1-0a43-4ecf-ba19-0606440f8e7f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'name' => 'yizhi',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T15:34:01+08:00 ] 127.0.0.1 127.0.0.1 POST /hello/1?name=yizhi
+[ log ] zerg.gaojiyu.my/hello/1?name=yizhi [运行时间：0.026154s][吞吐率：38.24req/s] [内存消耗：791.75kb] [文件加载：27]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hello',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '9e5e5272-f00a-4fee-879c-3d52359f63d4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'name' => 'yizhi',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-15T15:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/1?name=yizhi
+[ log ] zerg.gaojiyu.my/hello/1?name=yizhi [运行时间：0.019942s][吞吐率：50.15req/s] [内存消耗：768.51kb] [文件加载：25]
+[ info ] [ LANG ] E:\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gaojiyu.my',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '9ffa606b-d75b-4fa7-b5be-d01aa0d74b50',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/hello/1' => '',
+  'name' => 'yizhi',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ E:\www\zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

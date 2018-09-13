@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e31ef456-d351-4333-906a-58fcea2cf234" name="zerg" url="http://zerg.gxnwang.xyz">
+        <fileTransfer host="118.31.52.117" port="21" rootFolder="/zerg">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

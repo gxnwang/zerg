@@ -1,0 +1,82 @@
+[ 2018-08-27T21:37:24+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.001325s][吞吐率：754.64req/s] [内存消耗：159.12kb] [文件加载：34]
+
+---------------------------------------------------------------
+[ 2018-08-27T21:38:13+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.001390s][吞吐率：719.43req/s] [内存消耗：167.20kb] [文件加载：38]
+
+---------------------------------------------------------------
+[ 2018-08-27T21:38:35+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.001597s][吞吐率：626.20req/s] [内存消耗：169.77kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2018-08-27T21:38:54+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.144648s][吞吐率：6.91req/s] [内存消耗：169.69kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2018-08-27T21:39:26+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.171787s][吞吐率：5.82req/s] [内存消耗：169.69kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2018-08-27T21:40:27+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.142407s][吞吐率：7.02req/s] [内存消耗：169.69kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:05:41+08:00 ] 172.16.79.114 223.72.62.42 GET /api/v1/banner/1
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1 [运行时间：0.006334s][吞吐率：157.88req/s] [内存消耗：459.52kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000302s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:05:52+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.145331s][吞吐率：6.88req/s] [内存消耗：426.58kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000347s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:36:19+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.154469s][吞吐率：6.47req/s] [内存消耗：426.58kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000286s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:37:41+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.164625s][吞吐率：6.07req/s] [内存消耗：426.58kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000249s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:41:11+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.156260s][吞吐率：6.40req/s] [内存消耗：426.89kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000275s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:41:32+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1/address
+[ log ] zerg.gxnwang.xyz/api/v1/address [运行时间：0.004864s][吞吐率：205.59req/s] [内存消耗：458.80kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000253s ]
+
+---------------------------------------------------------------
+[ 2018-08-27T22:41:48+08:00 ] 172.16.79.114 223.72.62.42 POST /api/v1/address
+[ log ] zerg.gxnwang.xyz/api/v1/address [运行时间：0.006069s][吞吐率：164.77req/s] [内存消耗：459.88kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000212s ]
+
+---------------------------------------------------------------

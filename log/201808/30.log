@@ -1,0 +1,295 @@
+[ 2018-08-30T02:06:20+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19620 [运行时间：0.021526s][吞吐率：46.46req/s] [内存消耗：226.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:06:41+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19620 [运行时间：0.002285s][吞吐率：437.64req/s] [内存消耗：157.34kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:06:52+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.024473s][吞吐率：40.86req/s] [内存消耗：527.57kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000296s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:07:09+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.008404s][吞吐率：118.99req/s] [内存消耗：459.88kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000235s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:08:51+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19620 [运行时间：0.002070s][吞吐率：483.05req/s] [内存消耗：157.51kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:09:11+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.008192s][吞吐率：122.07req/s] [内存消耗：459.99kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:09:20+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.009163s][吞吐率：109.13req/s] [内存消耗：460.03kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000295s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:09:51+08:00 ] 172.16.79.114 183.192.164.85 GET /?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19620 [运行时间：0.001985s][吞吐率：503.82req/s] [内存消耗：156.95kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:10:38+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.476595s][吞吐率：2.10req/s] [内存消耗：594.56kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000321s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:10:48+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=14094
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=14094 [运行时间：0.471518s][吞吐率：2.12req/s] [内存消耗：158.86kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:11:07+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=12020
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=12020 [运行时间：0.202834s][吞吐率：4.93req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:12:45+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=12020
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=12020 [运行时间：0.220668s][吞吐率：4.53req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:12:53+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=15717
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=15717 [运行时间：0.205044s][吞吐率：4.88req/s] [内存消耗：158.28kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:18:27+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=14798
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=14798 [运行时间：0.221511s][吞吐率：4.51req/s] [内存消耗：226.55kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:21:49+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=14145
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=14145 [运行时间：0.219981s][吞吐率：4.55req/s] [内存消耗：226.55kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:23:23+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=15702
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=15702 [运行时间：0.219824s][吞吐率：4.55req/s] [内存消耗：226.55kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:23:47+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=19157
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19157 [运行时间：0.205766s][吞吐率：4.86req/s] [内存消耗：158.28kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:24:57+08:00 ] 172.16.79.114 223.72.70.91 GET /?XDEBUG_SESSION_START=13332
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=13332 [运行时间：0.202385s][吞吐率：4.94req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:25:24+08:00 ] 172.16.79.114 223.72.70.91 GET /index.php?XDEBUG_SESSION_START=10294
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=10294 [运行时间：0.202451s][吞吐率：4.94req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:27:18+08:00 ] 172.16.79.114 223.72.70.91 GET /index.php?XDEBUG_SESSION_START=13643
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=13643 [运行时间：0.202807s][吞吐率：4.93req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:27:45+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.225606s][吞吐率：4.43req/s] [内存消耗：527.57kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000240s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T02:28:02+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=13643
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=13643 [运行时间：0.208909s][吞吐率：4.79req/s] [内存消耗：459.99kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000547s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000233s ]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:02:12+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17320
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17320 [运行时间：0.002070s][吞吐率：483.10req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:14:24+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=18454
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=18454 [运行时间：0.054113s][吞吐率：18.48req/s] [内存消耗：225.80kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:15:26+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=18454
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=18454 [运行时间：0.038346s][吞吐率：26.08req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:15:29+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=18454
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=18454 [运行时间：0.038290s][吞吐率：26.12req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:25:14+08:00 ] 172.16.79.114 60.253.250.218 HEAD /
+[ log ] zerg.gxnwang.xyz/ [运行时间：0.021264s][吞吐率：47.03req/s] [内存消耗：224.80kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T12:25:14+08:00 ] 172.16.79.114 60.253.250.218 HEAD /
+[ log ] zerg.gxnwang.xyz/ [运行时间：0.004256s][吞吐率：234.96req/s] [内存消耗：156.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:16:01+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=17208
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=17208 [运行时间：0.024060s][吞吐率：41.56req/s] [内存消耗：226.55kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:19:00+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19740
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19740 [运行时间：0.060254s][吞吐率：16.60req/s] [内存消耗：226.55kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:19:45+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19740
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19740 [运行时间：0.062202s][吞吐率：16.08req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:21:14+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19740
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19740 [运行时间：0.060524s][吞吐率：16.52req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:21:21+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19798
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19798 [运行时间：0.042643s][吞吐率：23.45req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:22:15+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19798
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19798 [运行时间：0.059956s][吞吐率：16.68req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:22:16+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19798
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19798 [运行时间：0.044836s][吞吐率：22.30req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:23:01+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=19798
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=19798 [运行时间：0.041356s][吞吐率：24.18req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:25:28+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=13894
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=13894 [运行时间：0.041703s][吞吐率：23.98req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:26:53+08:00 ] 172.16.79.114 60.253.250.218 GET /
+[ log ] zerg.gxnwang.xyz/ [运行时间：0.044233s][吞吐率：22.61req/s] [内存消耗：157.15kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:27:42+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.042149s][吞吐率：23.73req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:27:54+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.044590s][吞吐率：22.43req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:27:55+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.042171s][吞吐率：23.71req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:27:58+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.042991s][吞吐率：23.26req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:27:58+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.042193s][吞吐率：23.70req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:35+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.065063s][吞吐率：15.37req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:37+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.046124s][吞吐率：21.68req/s] [内存消耗：158.32kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:38+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.041772s][吞吐率：23.94req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:47+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.044209s][吞吐率：22.62req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:48+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=17872
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=17872 [运行时间：0.041081s][吞吐率：24.34req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:33:58+08:00 ] 172.16.79.114 60.253.250.218 GET /index.php?XDEBUG_SESSION_START=10179
+[ log ] zerg.gxnwang.xyz/index.php?XDEBUG_SESSION_START=10179 [运行时间：0.041326s][吞吐率：24.20req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:36:25+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=12814
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=12814 [运行时间：0.043106s][吞吐率：23.20req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:36:49+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=16506
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=16506 [运行时间：0.042445s][吞吐率：23.56req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:37:05+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=14539
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=14539 [运行时间：0.061931s][吞吐率：16.15req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:37:38+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=11898
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=11898 [运行时间：0.041931s][吞吐率：23.85req/s] [内存消耗：157.27kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:37:45+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=16247
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=16247 [运行时间：0.041774s][吞吐率：23.94req/s] [内存消耗：157.54kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:47:51+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=16247
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=16247 [运行时间：0.066076s][吞吐率：15.13req/s] [内存消耗：226.59kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:47:53+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=16247
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=16247 [运行时间：0.043815s][吞吐率：22.82req/s] [内存消耗：158.32kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T13:47:54+08:00 ] 172.16.79.114 60.253.250.218 GET /?XDEBUG_SESSION_START=16247
+[ log ] zerg.gxnwang.xyz/?XDEBUG_SESSION_START=16247 [运行时间：0.041892s][吞吐率：23.87req/s] [内存消耗：157.58kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T14:04:31+08:00 ] 172.16.79.114 60.253.250.218 GET /
+[ log ] zerg.gxnwang.xyz/ [运行时间：0.041970s][吞吐率：23.83req/s] [内存消耗：157.15kb] [文件加载：35]
+
+---------------------------------------------------------------
+[ 2018-08-30T21:36:48+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.189038s][吞吐率：5.29req/s] [内存消耗：493.51kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000361s ]
+
+---------------------------------------------------------------

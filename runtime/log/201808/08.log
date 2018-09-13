@@ -1,0 +1,540 @@
+[ 2018-08-08T00:03:58+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001851s][吞吐率：540.22req/s] [内存消耗：137.94kb] [文件加载：33]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '3b1c8414-97dd-46a1-8e78-35769451aa2a',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:05:18+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001855s][吞吐率：539.11req/s] [内存消耗：138.10kb] [文件加载：33]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '09d7943e-044c-4d39-bfca-90429196b791',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:05:20+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001478s][吞吐率：676.61req/s] [内存消耗：137.73kb] [文件加载：33]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '7731866a-d420-4606-8b4c-9325a6157e17',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:05:26+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001559s][吞吐率：641.53req/s] [内存消耗：137.73kb] [文件加载：33]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'f9547da2-b017-41d5-8ade-187669422f06',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:06:20+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001640s][吞吐率：609.73req/s] [内存消耗：140.75kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'd641bc82-0e16-4840-a5b6-1acca9a09f29',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:10:23+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001328s][吞吐率：753.02req/s] [内存消耗：140.69kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '90aa5880-c5a7-4b33-bbee-044c9eeea3a4',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:10:31+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001245s][吞吐率：803.20req/s] [内存消耗：140.69kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'bf5d630d-1743-4d4a-864c-62f6c45c6a6e',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:10:32+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001067s][吞吐率：937.27req/s] [内存消耗：140.09kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'bb570f67-db13-477c-9a81-a870e822f873',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:10:39+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001270s][吞吐率：787.51req/s] [内存消耗：140.69kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'b270fd2e-d958-4789-9839-0ea5c6015722',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:15:59+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001388s][吞吐率：720.42req/s] [内存消耗：141.32kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'b9e89172-b5c9-42f5-9a35-0e249c3142e9',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:17:57+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001307s][吞吐率：765.10req/s] [内存消耗：141.32kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '8fa5f726-2b75-40db-a6cc-e4cad60bc430',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:20:00+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001302s][吞吐率：768.05req/s] [内存消耗：141.32kb] [文件加载：34]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'e695a23a-8b89-42c1-8927-b1255578b1b6',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[/var/www/zerg/application/api/model/Banner.php:18]
+
+---------------------------------------------------------------
+[ 2018-08-08T00:20:28+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001277s][吞吐率：783.10req/s] [内存消耗：132.13kb] [文件加载：29]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'dff99df6-76f6-4159-9816-d421fc30525b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-08T00:20:30+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001485s][吞吐率：673.35req/s] [内存消耗：131.55kb] [文件加载：29]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '9483a1bb-630b-47bb-9209-e696a66bb0b8',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-08T00:21:55+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001192s][吞吐率：839.03req/s] [内存消耗：132.13kb] [文件加载：29]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '139a26ee-2890-4cee-8541-bcb3b0a4b862',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-08T00:21:56+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.000918s][吞吐率：1,089.43req/s] [内存消耗：131.56kb] [文件加载：29]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'd0445abf-f07c-4539-961f-501d90ee5984',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-08-08T00:22:09+08:00 ] 172.16.79.114 223.72.46.175 GET /banner/1
+[ log ] zerg.gxnwang.xyz/banner/1 [运行时间：0.001311s][吞吐率：762.74req/s] [内存消耗：142.50kb] [文件加载：35]
+[ info ] [ LANG ] /var/www/zerg/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'zerg.gxnwang.xyz',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => 'af37d510-a37c-445e-8578-0aec88f12b3b',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /var/www/zerg/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][/var/www/zerg/application/api/controller/v1/Banner.php:29]
+
+---------------------------------------------------------------

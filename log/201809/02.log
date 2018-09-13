@@ -1,0 +1,124 @@
+[ 2018-09-02T15:54:23+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.178537s][吞吐率：5.60req/s] [内存消耗：427.30kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000565s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:04:03+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.187328s][吞吐率：5.34req/s] [内存消耗：427.30kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000380s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:08:45+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.164352s][吞吐率：6.08req/s] [内存消耗：427.30kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:15:01+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.018029s][吞吐率：55.47req/s] [内存消耗：465.80kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000316s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:15:12+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.017856s][吞吐率：56.00req/s] [内存消耗：465.80kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000359s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:16:51+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.018005s][吞吐率：55.54req/s] [内存消耗：465.80kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000310s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:17:00+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.017727s][吞吐率：56.41req/s] [内存消耗：464.72kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000356s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:21:42+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.018179s][吞吐率：55.01req/s] [内存消耗：463.80kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000329s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:21:44+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.017562s][吞吐率：56.94req/s] [内存消耗：462.73kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000330s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:26:38+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.033257s][吞吐率：30.07req/s] [内存消耗：462.70kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_name` , `snap_address` , `snap_items`) VALUES (58 , 'B902767983793788' , 0.05 , 5 , 'http://zerg.gxnwang.xyz/images/product-vg@1.png' , '芹菜 半斤等' , '{\"name\":\"gxn\",\"mobile\":\"18888888889\",\"province\":\"\\u5317\\u4eac\",\"city\":\"\\u5317\\u4eac\\u5e02\",\"country\":\"\\u4e30\\u53f0\\u533a123\",\"detail\":\"\\u67d0\\u67d0\\u8857\\u9053\",\"update_time\":\"1970-01-01 08:00:00\"}' , '[{\"id\":1,\"haveStock\":true,\"count\":2,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02},{\"id\":2,\"haveStock\":true,\"count\":3,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.03}]') [ RunTime:0.002685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 2 , 539) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 3 , 539) [ RunTime:0.002668s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:28:06+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.032715s][吞吐率：30.57req/s] [内存消耗：462.62kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_name` , `snap_address` , `snap_items`) VALUES (58 , 'B902768864303401' , 0.05 , 5 , 'http://zerg.gxnwang.xyz/images/product-vg@1.png' , '芹菜 半斤等' , '{\"name\":\"gxn\",\"mobile\":\"18888888889\",\"province\":\"\\u5317\\u4eac\",\"city\":\"\\u5317\\u4eac\\u5e02\",\"country\":\"\\u4e30\\u53f0\\u533a123\",\"detail\":\"\\u67d0\\u67d0\\u8857\\u9053\",\"update_time\":\"1970-01-01 08:00:00\"}' , '[{\"id\":1,\"haveStock\":true,\"count\":2,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02},{\"id\":2,\"haveStock\":true,\"count\":3,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.03}]') [ RunTime:0.002781s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 2 , 540) [ RunTime:0.000276s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 3 , 540) [ RunTime:0.002564s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:35:47+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//token/user
+[ log ] zerg.gxnwang.xyz/api/v1//token/user [运行时间：0.166444s][吞吐率：6.01req/s] [内存消耗：427.30kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oxfit4oAMXHql6qTn-S6BhbWkAsY' LIMIT 1 [ RunTime:0.000445s ]
+
+---------------------------------------------------------------
+[ 2018-09-02T16:35:49+08:00 ] 172.16.79.114 223.72.70.91 POST /api/v1//order
+[ log ] zerg.gxnwang.xyz/api/v1//order [运行时间：0.036762s][吞吐率：27.20req/s] [内存消耗：462.05kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 58 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_name` , `snap_address` , `snap_items` , `update_time` , `create_time`) VALUES (58 , 'B902773495812000' , 0.09 , 9 , 'http://zerg.gxnwang.xyz/images/product-vg@1.png' , '芹菜 半斤等' , '{\"name\":\"gxn\",\"mobile\":\"18888888889\",\"province\":\"\\u5317\\u4eac\",\"city\":\"\\u5317\\u4eac\\u5e02\",\"country\":\"\\u4e30\\u53f0\\u533a123\",\"detail\":\"\\u67d0\\u67d0\\u8857\\u9053\",\"update_time\":\"1970-01-01 08:00:00\"}' , '[{\"id\":1,\"haveStock\":true,\"count\":4,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.04},{\"id\":2,\"haveStock\":true,\"count\":5,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.05}]' , 1535877349 , 1535877349) [ RunTime:0.003529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.001734s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 4 , 541) [ RunTime:0.000554s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 5 , 541) [ RunTime:0.001462s ]
+
+---------------------------------------------------------------

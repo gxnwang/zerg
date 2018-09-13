@@ -1,0 +1,21 @@
+[ 2018-08-09T23:08:11+08:00 ] 172.16.79.114 223.72.46.175 GET /api/v1/banner/1
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1 [运行时间：0.003293s][吞吐率：303.67req/s] [内存消耗：290.02kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000276s ]
+
+---------------------------------------------------------------
+[ 2018-08-09T23:12:47+08:00 ] 172.16.79.114 223.72.46.175 GET /api/v1/banner/1
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1 [运行时间：0.003071s][吞吐率：325.64req/s] [内存消耗：289.49kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000323s ]
+
+---------------------------------------------------------------
+[ 2018-08-09T23:12:56+08:00 ] 172.16.79.114 223.72.46.175 GET /api/v1/banner/1
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1 [运行时间：0.002870s][吞吐率：348.45req/s] [内存消耗：289.74kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000252s ]
+
+---------------------------------------------------------------

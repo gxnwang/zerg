@@ -1,0 +1,36 @@
+[ 2018-09-01T07:52:54+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.025543s][吞吐率：39.15req/s] [内存消耗：462.05kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000357s ]
+
+---------------------------------------------------------------
+[ 2018-09-01T07:52:56+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.060812s][吞吐率：16.44req/s] [内存消耗：459.88kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2018-09-01T07:53:00+08:00 ] 172.16.79.114 223.72.70.91 GET /api/v1/banner/1?XDEBUG_SESSION_START=19620
+[ log ] zerg.gxnwang.xyz/api/v1/banner/1?XDEBUG_SESSION_START=19620 [运行时间：0.058554s][吞吐率：17.08req/s] [内存消耗：459.88kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000347s ]
+
+---------------------------------------------------------------

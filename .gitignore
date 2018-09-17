@@ -1,0 +1,4 @@
+application/extra/
+application/database.php
+application/common.php
+application/config.php

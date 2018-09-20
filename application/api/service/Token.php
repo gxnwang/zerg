@@ -122,4 +122,14 @@ class Token {
             return false;
         }
     }
+
+    /** 验证token */
+    public static function verifyToken($token){
+        $exist = Cache::get($token);
+        if($exist){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
